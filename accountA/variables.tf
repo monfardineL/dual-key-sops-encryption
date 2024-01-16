@@ -3,11 +3,6 @@ variable "accountID" {
   description = "Current AWS Account ID"
 }
 
-variable "region" {
-  default     = "eu-west-1"
-  description = "AWS region"
-}
-
 variable "kms_principals_acc_ids" {
   type        = list(string)
   default     = ["111111111111"]
